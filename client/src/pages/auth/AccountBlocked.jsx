@@ -131,7 +131,7 @@ import { useNavigate } from 'react-router-dom';
 import useAuthStore from '../../store/authStore';
 import { submitAppeal } from '../../api/scan';
 import toast from 'react-hot-toast';
-import logo from '../../assets/img/logo.webp';
+import logo from '../../assets/img/logo.png';
 
 const appealTypes = [
   { value: 'suspension', label: 'Account suspension dispute' },

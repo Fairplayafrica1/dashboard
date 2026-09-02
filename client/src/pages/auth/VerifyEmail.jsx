@@ -4,7 +4,7 @@ import { CheckCircle, XCircle, Loader, RefreshCw } from 'lucide-react';
 import api from '../../api/axios';
 import useAuthStore from '../../store/authStore';
 import toast from 'react-hot-toast';
-import logo from '../../assets/img/logo.webp';
+import logo from '../../assets/img/logo.png';
 
 export default function VerifyEmail() {
   const [searchParams] = useSearchParams();

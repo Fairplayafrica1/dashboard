@@ -4,7 +4,7 @@ import { Eye, EyeOff } from 'lucide-react';
 import { registerUser } from '../../api/auth';
 import useAuthStore from '../../store/authStore';
 import toast from 'react-hot-toast';
-import logo from '../../assets/img/logo.webp';
+import logo from '../../assets/img/logo.png';
 
 export default function Register() {
   const navigate = useNavigate();

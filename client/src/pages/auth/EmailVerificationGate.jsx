@@ -4,7 +4,7 @@ import useAuthStore from '../../store/authStore';
 import { useNavigate } from 'react-router-dom';
 import api from '../../api/axios';
 import toast from 'react-hot-toast';
-import logo from '../../assets/img/logo.webp';
+import logo from '../../assets/img/logo.png';
 
 export default function EmailVerificationGate() {
   const { user, logout, setUser } = useAuthStore();

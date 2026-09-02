@@ -2,7 +2,7 @@ import { NavLink, useNavigate, Outlet } from 'react-router-dom';
 import { LayoutDashboard, Users, Film, LogOut, Shield } from 'lucide-react';
 import useAuthStore from '../../store/authStore';
 import toast from 'react-hot-toast';
-import logo from '../../assets/img/logo.webp';
+import logo from '../../assets/img/logo.png';
 import {
  AlertTriangle,
   ScrollText, Megaphone, Search, MessageSquare

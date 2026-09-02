@@ -4,7 +4,7 @@ import { Eye, EyeOff, Shield } from 'lucide-react';
 import { loginUser } from '../../api/auth';
 import useAuthStore from '../../store/authStore';
 import toast from 'react-hot-toast';
-import logo from '../../assets/img/logo.webp';
+import logo from '../../assets/img/logo.png';
 
 export default function Login() {
   const navigate = useNavigate();
