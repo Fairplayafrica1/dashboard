@@ -90,7 +90,7 @@ export default function Register() {
                 name="name"
                 value={form.name}
                 onChange={handleChange}
-                placeholder="Warris Ibrahim"
+                placeholder="Full Name"
                 required
                 className="w-full px-4 py-3 rounded-xl outline-none transition-all"
                 style={{ backgroundColor: '#1A2622', border: '1px solid #2A3832', color: '#F0F7F4' }}
