@@ -1,0 +1,6 @@
+*.pcm
+*.wav
+*.mp3
+node_modules/
+server/tmp/
+*.webm
